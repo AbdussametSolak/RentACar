@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj": {}
+    "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj": {
+    "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj": {
+    "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\Core\\Core.csproj"
+              "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj"
               }
             }
           }

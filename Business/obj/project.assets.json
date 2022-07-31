@@ -611,6 +611,21 @@
           "bin/placeholder/Core.dll": {}
         }
       },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1794,6 +1809,11 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -1802,9 +1822,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Core >= 1.0.0",
-      "Entities >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7"
+      "DataAccess >= 1.0.0",
+      "Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1813,11 +1832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\DataAccess\\DataAccess.csproj",
-      "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Business\\Business.csproj",
+      "projectName": "Business",
+      "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1834,8 +1853,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Core\\Core.csproj"
+            "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\DataAccess\\DataAccess.csproj"
             },
             "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\Entities\\Entities.csproj"
@@ -1852,12 +1871,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[6.0.7, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

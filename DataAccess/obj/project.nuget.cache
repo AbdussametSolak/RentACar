@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SgwyCB9RlQi/FNzg5roVXst87njxZUEdD9/kvWawK9gkdB8w5C5VU7W4WRs6FXFf9jJOecr2kvsqiEao/NCeQQ==",
+  "dgSpecHash": "4IxFyCVbYbusZGcYsanIAzJGaGGgu/tc29znBs/zYQsbBrdUInl5+mgnBcK/cWs0Okpq0qytHNHGMTi5nHi05A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\RentACarProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\RentACar\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
