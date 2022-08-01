@@ -33,7 +33,8 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> filter)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter) // gets just entity which parameter u
+                                                                   // send as a id   
         {
             using (TContext context = new TContext())
             {
