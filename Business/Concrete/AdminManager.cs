@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -16,29 +18,33 @@ namespace Business.Concrete
         {
             _adminDal = adminDal;
         }
-        public void Add(Admin admin)
+
+        public IResult Add(Admin admin)
         {
             _adminDal.Add(admin);
+            return new SuccessResult(Messages.AdminAdded);
         }
 
-        public void Delete(Admin admin)
+        public IResult Delete(Admin admin)
         {
             _adminDal.Delete(admin);
+            return new SuccessResult(Messages.AdminDeleted);
         }
 
-        public Admin Get(int adminId)
+        public IDataResult<Admin> Get(int adminId)
         {
-            return _adminDal.Get(a => a.AdminId == adminId);
+            throw new NotImplementedException();
         }
 
-        public List<Admin> GetAll()
+        public IDataResult<List<Admin>> GetAll()
         {
-            return _adminDal.GetAll();
+            throw new NotImplementedException();
         }
 
-        public void Update(Admin admin)
+        public IResult Update(Admin admin)
         {
             _adminDal.Update(admin);
+            return new SuccessResult(Messages.AdminUpdated);
         }
     }
 }

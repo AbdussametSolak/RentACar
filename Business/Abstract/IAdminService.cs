@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,10 @@ namespace Business.Abstract
 {
     public interface IAdminService
     {
-        void Add(Admin admin);
-        void Update(Admin admin);
-        void Delete(Admin admin);
-        public List<Admin> GetAll();
-        public Admin Get(int adminId);
+        public IResult Add(Admin admin);
+        public IResult Update(Admin admin);
+        public IResult Delete(Admin admin);
+        IDataResult<List<Admin>>GetAll();
+        IDataResult<Admin> Get(int adminId);
     }
 }
